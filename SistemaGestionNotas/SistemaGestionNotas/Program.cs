@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// Clase para representar un estudiante
+// Clase para representar un estudiantee
 class Estudiante
 {
     public string Nombre;
