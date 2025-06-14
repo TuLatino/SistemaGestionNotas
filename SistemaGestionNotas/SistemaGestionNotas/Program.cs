@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaGestionNotas
+// Clase para representar un estudiante
+class Estudiante
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    public string Nombre;
+    public double[] Notas = new double[3];
+    public double Promedio;
+    public string Condicion;
+    public char Clasificacion;
 }
